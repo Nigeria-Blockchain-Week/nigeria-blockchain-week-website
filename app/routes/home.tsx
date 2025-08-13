@@ -2,6 +2,7 @@ import HeaderNav from "~/components/HeaderNav";
 import type { Route } from "./+types/home";
 import FooterNav from "~/components/FooterNav";
 import { ArrowRight, Calendar, MapPin } from "lucide-react";
+import { Link } from "react-router";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -92,35 +93,36 @@ export default function Home() {
             </div>
 
             <div className="grid md:grid-cols-2 gap-6">
-              <div className="cursor-pointer p-4 rounded-md border border-[#212922]">
-                <img
-                  src="/images/lagos.png"
-                  alt="Lagos"
-                  className="w-full h-44 object-cover rounded-md"
-                />
-                <div className="my-3">
-                  <div className="mb-2 flex justify-between">
-                    <h3 className="text-lg flex gap-3 font-bold text-white mb-1">
-                      <MapPin size={20} className="my-auto text-green-500" />
+              <Link to={"https://lagosblockchainweek.io/"}>
+                <div className="cursor-pointer p-4 rounded-md border border-[#212922]">
+                  <img
+                    src="/images/lagos.png"
+                    alt="Lagos"
+                    className="w-full h-44 object-cover rounded-md"
+                  />
+                  <div className="my-3">
+                    <div className="mb-2 flex justify-between">
+                      <h3 className="text-lg flex gap-3 font-bold text-white mb-1">
+                        <MapPin size={20} className="my-auto text-green-500" />
 
-                      <span>Lagos</span>
-                    </h3>
-                    <button className="flex gap-3 bg-[#16A249]/20 py-1 px-4 rounded-sm">
-                      <span className="my-auto">Live</span>
-                      <div className="w-2 h-2 my-auto rounded-full bg-green-500"></div>
-                    </button>
+                        <span>Lagos</span>
+                      </h3>
+                      <button className="flex gap-3 bg-[#16A249]/20 py-1 px-4 rounded-sm">
+                        <span className="my-auto">Live</span>
+                        <div className="w-2 h-2 my-auto rounded-full bg-green-500"></div>
+                      </button>
+                    </div>
+                    <p className="text-gray-300 text-sm">AI X Blockchain</p>
+                    <p className="text-gray-400 text-sm my-3">
+                      The Intelligent Infrastructure of Tomorrow
+                    </p>
+                    <p className="flex gap-3">
+                      <Calendar size={16} className="my-auto" />
+                      <span>September 2025</span>
+                    </p>
                   </div>
-                  <p className="text-gray-300 text-sm">AI X Blockchain</p>
-                  <p className="text-gray-400 text-sm my-3">
-                    The Intelligent Infrastructure of Tomorrow
-                  </p>
-                  <p className="flex gap-3">
-                    <Calendar size={16} className="my-auto" />
-                    <span>September 2025</span>
-                  </p>
                 </div>
-              </div>
-
+              </Link>
               <div className="cursor-pointer p-4 rounded-md border border-[#212922]">
                 <img
                   src="/images/abuja.png"

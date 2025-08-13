@@ -40,7 +40,7 @@ const HeaderNav = () => {
             </a>
           </nav>
 
-          <button className="bg-linear-to-r from-[#13B92C] to-[#00A619] p-3 px-8 rounded-md text-black font-semibold">
+          <button className="bg-gradient-to-r from-[#13B92C] to-[#00A619] p-3 px-8 rounded-md text-black font-semibold">
             Join Community
           </button>
         </div>

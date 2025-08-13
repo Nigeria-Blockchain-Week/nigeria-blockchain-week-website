@@ -1,8 +1,15 @@
 @import "tailwindcss";
 
-#hero{
+#hero {
   background-image: url('/images/Glow.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#BBBE {
+  background-image: url('/images/Glow.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
 }

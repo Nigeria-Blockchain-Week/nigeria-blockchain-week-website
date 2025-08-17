@@ -33,16 +33,17 @@ const HeaderNav = () => {
               Get Involved
             </a>
             <a
-              href="#"
+              href="mailto:partnership@nigeriablockchainweek.ng"
               className="text-gray-300 hover:text-white transition-colors"
             >
               Contact Us
             </a>
           </nav>
-
-          <button className="bg-gradient-to-r from-[#13B92C] to-[#00A619] p-3 px-8 rounded-md text-black font-semibold">
-            Join Community
-          </button>
+          <a href="https://t.me/NigerianBlockchainWeek" target="_blank">
+            <button className="bg-gradient-to-r from-[#13B92C] to-[#00A619] p-3 px-8 rounded-md text-black font-semibold">
+              Join Community
+            </button>
+          </a>
         </div>
       </div>
     </header>

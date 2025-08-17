@@ -118,41 +118,43 @@ export default function Home() {
                     </p>
                     <p className="flex gap-3">
                       <Calendar size={16} className="my-auto" />
-                      <span>September 2025</span>
+                      <span>29th September - 4th October 2025</span>
                     </p>
                   </div>
                 </div>
               </Link>
-              <div className="cursor-pointer p-4 rounded-md border border-[#212922]">
-                <img
-                  src="/images/abuja.png"
-                  alt="Lagos"
-                  className="w-full h-44 object-cover rounded-md"
-                />
-                <div className="my-3">
-                  <div className="mb-2 flex justify-between">
-                    <h3 className="text-lg flex gap-3 font-bold text-white mb-1">
-                      <MapPin size={20} className="my-auto text-green-500" />
+              <Link to={"http://abujablockchainweek.ng/"}>
+                <div className="cursor-pointer p-4 rounded-md border border-[#212922]">
+                  <img
+                    src="/images/abuja.png"
+                    alt="Lagos"
+                    className="w-full h-44 object-cover rounded-md"
+                  />
+                  <div className="my-3">
+                    <div className="mb-2 flex justify-between">
+                      <h3 className="text-lg flex gap-3 font-bold text-white mb-1">
+                        <MapPin size={20} className="my-auto text-green-500" />
 
-                      <span>Abuja</span>
-                    </h3>
-                    <button className="flex gap-3 bg-[#16A249]/20 py-1 px-4 rounded-sm">
-                      <span className="my-auto">Live</span>
-                      <div className="w-2 h-2 my-auto rounded-full bg-green-500"></div>
-                    </button>
+                        <span>Abuja</span>
+                      </h3>
+                      <button className="flex gap-3 bg-[#16A249]/20 py-1 px-4 rounded-sm">
+                        <span className="my-auto">Live</span>
+                        <div className="w-2 h-2 my-auto rounded-full bg-green-500"></div>
+                      </button>
+                    </div>
+                    <p className="text-gray-300 text-sm">
+                      Policy, Trust & Innovation
+                    </p>
+                    <p className="text-gray-400 text-sm my-3">
+                      Shaping Nigeria’s Digital Governance
+                    </p>
+                    <p className="flex gap-3">
+                      <Calendar size={16} className="my-auto" />
+                      <span>22nd - 27th September 2025</span>
+                    </p>
                   </div>
-                  <p className="text-gray-300 text-sm">
-                    Policy, Trust & Innovation
-                  </p>
-                  <p className="text-gray-400 text-sm my-3">
-                    Shaping Nigeria’s Digital Governance
-                  </p>
-                  <p className="flex gap-3">
-                    <Calendar size={16} className="my-auto" />
-                    <span>October 2025</span>
-                  </p>
                 </div>
-              </div>
+              </Link>
 
               <div className="cursor-pointer p-4 rounded-md border border-[#212922]">
                 <img
@@ -165,7 +167,7 @@ export default function Home() {
                     <h3 className="text-lg flex gap-3 font-bold text-white mb-1">
                       <MapPin size={20} className="my-auto text-green-500" />
 
-                      <span>Anambara</span>
+                      <span>Anambra</span>
                     </h3>
                     <button className="flex gap-3 bg-gray-800 py-1 px-4 rounded-sm">
                       <span className="my-auto">soon</span>
@@ -359,9 +361,11 @@ export default function Home() {
                     Connect with builders, entrepreneurs, and blockchain
                     enthusiasts nationwide.
                   </p>
-                  <button className="bg-white border border-[13B92C] p-3 rounded-sm font-semibold px-6 text-black">
-                    Join the Community
-                  </button>
+                  <a href="https://t.me/NigerianBlockchainWeek" target="_blank">
+                    <button className="bg-white border border-[13B92C] p-3 rounded-sm font-semibold px-6 text-black">
+                      Join the Community
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>

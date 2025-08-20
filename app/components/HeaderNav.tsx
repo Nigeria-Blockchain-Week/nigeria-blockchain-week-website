@@ -1,11 +1,14 @@
 import React from "react";
+import { Link } from "react-router";
 
 const HeaderNav = () => {
   return (
     <header className="border-b border-gray-800">
       <div className="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <img className="w-32" src="/images/Logo.svg" alt="" />
+          <Link to="/">
+            <img className="w-32" src="/images/Logo.svg" alt="" />
+          </Link>
 
           <nav className="hidden md:flex items-center space-x-8">
             <a
@@ -20,18 +23,18 @@ const HeaderNav = () => {
             >
               State Weeks
             </a>
-            <a
-              href="#"
+            <Link
+              to="/blogs"
               className="text-gray-300 hover:text-white transition-colors"
             >
               Blog
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/team"
               className="text-gray-300 hover:text-white transition-colors"
             >
               Team
-            </a>
+            </Link>
             <a
               href="#"
               className="text-gray-300 hover:text-white transition-colors"

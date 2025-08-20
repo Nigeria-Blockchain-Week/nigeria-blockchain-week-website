@@ -222,7 +222,7 @@ export default function Blogs() {
         </section>
 
         {/* All Articles Section */}
-        <section className="py-20 px-4 sm:px-6 lg:px-8 border-t border-gray-800">
+        <section className="py-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
             <div className="mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">

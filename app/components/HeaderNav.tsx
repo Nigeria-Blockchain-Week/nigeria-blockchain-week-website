@@ -24,7 +24,13 @@ const HeaderNav = () => {
               href="#"
               className="text-gray-300 hover:text-white transition-colors"
             >
-              About
+              Blog
+            </a>
+            <a
+              href="#"
+              className="text-gray-300 hover:text-white transition-colors"
+            >
+              Team
             </a>
             <a
               href="#"

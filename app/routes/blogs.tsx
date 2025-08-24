@@ -148,9 +148,10 @@ export default function Blogs() {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {filteredArticles.length > 0 ? (
                 filteredArticles.map((article) => (
-                <div
+                <a
                   key={article.id}
-                  className="bg-[#0B0F0D] border border-[#212922] rounded-md overflow-hidden hover:border-green-500 transition-colors cursor-pointer"
+                  href={`/blog/${article.id}`}
+                  className="bg-[#0B0F0D] border border-[#212922] rounded-md overflow-hidden hover:border-green-500 transition-colors cursor-pointer block"
                 >
                   <div className="relative h-48">
                     <img
@@ -207,7 +208,7 @@ export default function Blogs() {
                       </button>
                     </div>
                   </div>
-                </div>
+                </a>
               ))
               ) : (
                 <div className="col-span-full text-center py-12">

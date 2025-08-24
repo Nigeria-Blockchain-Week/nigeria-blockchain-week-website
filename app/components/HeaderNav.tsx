@@ -12,7 +12,7 @@ const HeaderNav = () => {
 
           <nav className="hidden md:flex items-center space-x-8">
             <a
-              href="#"
+              href="/"
               className="text-gray-300 hover:text-white transition-colors"
             >
               Home

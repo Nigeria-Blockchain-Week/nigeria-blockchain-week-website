@@ -1,7 +1,6 @@
 import HeaderNav from "~/components/HeaderNav";
 import type { Route } from "./+types/team";
 import FooterNav from "~/components/FooterNav";
-import { Linkedin, Twitter, Users } from "lucide-react";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -113,7 +112,21 @@ export default function Team() {
         <section id="hero" className="bg-[#040806] py-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <button className="flex w-62 mx-auto text-[#70EE45] border border-[#70EE45] rounded-full p-4 items-center justify-center mb-6 gap-4">
-              <Users />
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+              </svg>
               <p>Leadership & Expertise</p>
             </button>
             <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-[#67FF83] via-[#D9FFE6] to-[#02D929] bg-clip-text text-transparent">

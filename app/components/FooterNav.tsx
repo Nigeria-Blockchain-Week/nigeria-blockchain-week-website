@@ -17,7 +17,11 @@ const FooterNav = () => {
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm text-gray-400">
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a
+                  href="https://bit.ly/LBW2024Gallery"
+                  target="_blank"
+                  className="hover:text-white transition-colors"
+                >
                   Lagos Blockchain Week 2024
                 </a>
               </li>
@@ -38,22 +42,38 @@ const FooterNav = () => {
             <h4 className="font-semibold mb-4">Get Involved</h4>
             <ul className="space-y-2 text-sm text-gray-400">
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a
+                  href=" https://bit.ly/NBWPartnershipform"
+                  target="_blank"
+                  className="hover:text-white transition-colors"
+                >
                   Partnerships
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a
+                  href="https://bit.ly/NBWSponsorship"
+                  target="_blank"
+                  className="hover:text-white transition-colors"
+                >
                   Sponsorship
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a
+                  href="https://bit.ly/NBWSpeakerForm"
+                  target="_blank"
+                  className="hover:text-white transition-colors"
+                >
                   Speakers
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a
+                  href="https://bit.ly/NBW_Volunteer"
+                  target="_blank"
+                  className="hover:text-white transition-colors"
+                >
                   Volunteers
                 </a>
               </li>
@@ -63,10 +83,26 @@ const FooterNav = () => {
           <div>
             <h4 className="font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li>General Inquiries</li>
-              <li>Partnership Inquiries</li>
-              <li>Press Inquiries</li>
-              <li>Speaker Inquiries</li>
+              <li>
+                <a href="mailto:partnership@nigeriablockchainweek.ng">
+                  General Inquiries
+                </a>
+              </li>
+              <li>
+                <a href="mailto:partnership@nigeriablockchainweek.ng">
+                  Partnership Inquiries
+                </a>
+              </li>
+              <li>
+                <a href="mailto:partnership@nigeriablockchainweek.ng">
+                  Press Inquiries
+                </a>
+              </li>
+              <li>
+                <a href="mailto:partnership@nigeriablockchainweek.ng">
+                  Speaker Inquiries
+                </a>
+              </li>
             </ul>
           </div>
         </div>

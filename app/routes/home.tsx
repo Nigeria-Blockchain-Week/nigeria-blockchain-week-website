@@ -34,9 +34,11 @@ export default function Home() {
               <button className="bg-[#70EE45] rounded-md text-black font-semibold px-8 py-3">
                 Explore State Weeks
               </button>
-              <button className="border-[#70EE45] rounded-md text-black font-semibold bg-white px-8 py-3 bg-transparent">
-                Sponsor an Event
-              </button>
+              <a href="https://bit.ly/NBWSponsorship" target="_blank">
+                <button className="border-[#70EE45] rounded-md text-black font-semibold bg-white px-8 py-3 bg-transparent">
+                  Sponsor an Event
+                </button>
+              </a>
             </div>
           </div>
         </section>
@@ -102,9 +104,19 @@ export default function Home() {
                   <div className="my-3">
                     <div className="mb-2 flex justify-between">
                       <h3 className="text-lg flex gap-3 font-bold text-white mb-1">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="my-auto text-green-500">
-                          <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
-                          <circle cx="12" cy="10" r="3"/>
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="my-auto text-green-500"
+                        >
+                          <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                          <circle cx="12" cy="10" r="3" />
                         </svg>
 
                         <span>Lagos</span>
@@ -119,11 +131,28 @@ export default function Home() {
                       The Intelligent Infrastructure of Tomorrow
                     </p>
                     <p className="flex gap-3">
-                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="my-auto">
-                        <rect width="18" height="18" x="3" y="4" rx="2" ry="2"/>
-                        <line x1="16" x2="16" y1="2" y2="6"/>
-                        <line x1="8" x2="8" y1="2" y2="6"/>
-                        <line x1="3" x2="21" y1="10" y2="10"/>
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="my-auto"
+                      >
+                        <rect
+                          width="18"
+                          height="18"
+                          x="3"
+                          y="4"
+                          rx="2"
+                          ry="2"
+                        />
+                        <line x1="16" x2="16" y1="2" y2="6" />
+                        <line x1="8" x2="8" y1="2" y2="6" />
+                        <line x1="3" x2="21" y1="10" y2="10" />
                       </svg>
                       <span>29th September - 4th October 2025</span>
                     </p>
@@ -140,9 +169,19 @@ export default function Home() {
                   <div className="my-3">
                     <div className="mb-2 flex justify-between">
                       <h3 className="text-lg flex gap-3 font-bold text-white mb-1">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="my-auto text-green-500">
-                          <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
-                          <circle cx="12" cy="10" r="3"/>
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="my-auto text-green-500"
+                        >
+                          <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                          <circle cx="12" cy="10" r="3" />
                         </svg>
 
                         <span>Abuja</span>
@@ -159,11 +198,28 @@ export default function Home() {
                       Shaping Nigeria’s Digital Governance
                     </p>
                     <p className="flex gap-3">
-                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="my-auto">
-                        <rect width="18" height="18" x="3" y="4" rx="2" ry="2"/>
-                        <line x1="16" x2="16" y1="2" y2="6"/>
-                        <line x1="8" x2="8" y1="2" y2="6"/>
-                        <line x1="3" x2="21" y1="10" y2="10"/>
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="my-auto"
+                      >
+                        <rect
+                          width="18"
+                          height="18"
+                          x="3"
+                          y="4"
+                          rx="2"
+                          ry="2"
+                        />
+                        <line x1="16" x2="16" y1="2" y2="6" />
+                        <line x1="8" x2="8" y1="2" y2="6" />
+                        <line x1="3" x2="21" y1="10" y2="10" />
                       </svg>
                       <span>22nd - 27th September 2025</span>
                     </p>
@@ -180,9 +236,19 @@ export default function Home() {
                 <div className="my-3">
                   <div className="mb-2 flex justify-between">
                     <h3 className="text-lg flex gap-3 font-bold text-white mb-1">
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="my-auto text-green-500">
-                        <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
-                        <circle cx="12" cy="10" r="3"/>
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="my-auto text-green-500"
+                      >
+                        <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                        <circle cx="12" cy="10" r="3" />
                       </svg>
 
                       <span>Anambra</span>
@@ -195,11 +261,21 @@ export default function Home() {
                   <p className="text-gray-300 text-sm">TBA</p>
                   <p className="text-gray-400 text-sm my-3">Coming Soon</p>
                   <p className="flex gap-3">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="my-auto">
-                      <rect width="18" height="18" x="3" y="4" rx="2" ry="2"/>
-                      <line x1="16" x2="16" y1="2" y2="6"/>
-                      <line x1="8" x2="8" y1="2" y2="6"/>
-                      <line x1="3" x2="21" y1="10" y2="10"/>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="my-auto"
+                    >
+                      <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+                      <line x1="16" x2="16" y1="2" y2="6" />
+                      <line x1="8" x2="8" y1="2" y2="6" />
+                      <line x1="3" x2="21" y1="10" y2="10" />
                     </svg>
                     <span>2025</span>
                   </p>
@@ -215,9 +291,19 @@ export default function Home() {
                 <div className="my-3">
                   <div className="mb-2 flex justify-between">
                     <h3 className="text-lg flex gap-3 font-bold text-white mb-1">
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="my-auto text-green-500">
-                        <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
-                        <circle cx="12" cy="10" r="3"/>
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="my-auto text-green-500"
+                      >
+                        <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                        <circle cx="12" cy="10" r="3" />
                       </svg>
 
                       <span>Rivers</span>
@@ -230,11 +316,21 @@ export default function Home() {
                   <p className="text-gray-300 text-sm">TBA</p>
                   <p className="text-gray-400 text-sm my-3">Coming Soon</p>
                   <p className="flex gap-3">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="my-auto">
-                      <rect width="18" height="18" x="3" y="4" rx="2" ry="2"/>
-                      <line x1="16" x2="16" y1="2" y2="6"/>
-                      <line x1="8" x2="8" y1="2" y2="6"/>
-                      <line x1="3" x2="21" y1="10" y2="10"/>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="my-auto"
+                    >
+                      <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+                      <line x1="16" x2="16" y1="2" y2="6" />
+                      <line x1="8" x2="8" y1="2" y2="6" />
+                      <line x1="3" x2="21" y1="10" y2="10" />
                     </svg>
                     <span>2025</span>
                   </p>
@@ -371,9 +467,11 @@ export default function Home() {
                     Maximize your reach and impact by supporting blockchain
                     events across Nigeria.
                   </p>
-                  <button className="bg-white border border-[13B92C] p-3 rounded-sm font-semibold px-6 text-black">
-                    Sponsor State Weeks
-                  </button>
+                  <a href="https://bit.ly/NBWSponsorship" target="_blank">
+                    <button className="bg-white border border-[#13B92C] p-3 rounded-sm font-semibold px-6 text-black">
+                      Sponsor State Weeks
+                    </button>
+                  </a>
                 </div>
               </div>
               <div className="p-4 rounded-md border border-[#212922]">
@@ -428,19 +526,41 @@ export default function Home() {
                     </h3>
                   </div>
                   <p className="text-[#70EE45] flex gap-3 mb-3 text-sm cursor-pointer">
-                    <span>Visit Website</span>
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="my-auto">
-                      <path d="M5 12h14"/>
-                      <path d="m12 5 7 7-7 7"/>
+                    <a href="https://bit.ly/LBW2024Gallery" target="_blank">
+                      Visit Website
+                    </a>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="my-auto"
+                    >
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
                     </svg>
                   </p>
 
                   <p className="flex gap-3">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="my-auto">
-                      <rect width="18" height="18" x="3" y="4" rx="2" ry="2"/>
-                      <line x1="16" x2="16" y1="2" y2="6"/>
-                      <line x1="8" x2="8" y1="2" y2="6"/>
-                      <line x1="3" x2="21" y1="10" y2="10"/>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="my-auto"
+                    >
+                      <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+                      <line x1="16" x2="16" y1="2" y2="6" />
+                      <line x1="8" x2="8" y1="2" y2="6" />
+                      <line x1="3" x2="21" y1="10" y2="10" />
                     </svg>
                     <span>June 2024</span>
                   </p>
@@ -461,18 +581,38 @@ export default function Home() {
                   </div>
                   <p className="text-[#70EE45] flex gap-3 mb-3 text-sm cursor-pointer">
                     <span>Visit Website</span>
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="my-auto">
-                      <path d="M5 12h14"/>
-                      <path d="m12 5 7 7-7 7"/>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="my-auto"
+                    >
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
                     </svg>
                   </p>
 
                   <p className="flex gap-3">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="my-auto">
-                      <rect width="18" height="18" x="3" y="4" rx="2" ry="2"/>
-                      <line x1="16" x2="16" y1="2" y2="6"/>
-                      <line x1="8" x2="8" y1="2" y2="6"/>
-                      <line x1="3" x2="21" y1="10" y2="10"/>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="my-auto"
+                    >
+                      <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+                      <line x1="16" x2="16" y1="2" y2="6" />
+                      <line x1="8" x2="8" y1="2" y2="6" />
+                      <line x1="3" x2="21" y1="10" y2="10" />
                     </svg>
                     <span>September 2024</span>
                   </p>
@@ -492,18 +632,38 @@ export default function Home() {
                   </div>
                   <p className="text-[#70EE45] flex gap-3 mb-3 text-sm cursor-pointer">
                     <span>Visit Website</span>
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="my-auto">
-                      <path d="M5 12h14"/>
-                      <path d="m12 5 7 7-7 7"/>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="my-auto"
+                    >
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
                     </svg>
                   </p>
 
                   <p className="flex gap-3">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="my-auto">
-                      <rect width="18" height="18" x="3" y="4" rx="2" ry="2"/>
-                      <line x1="16" x2="16" y1="2" y2="6"/>
-                      <line x1="8" x2="8" y1="2" y2="6"/>
-                      <line x1="3" x2="21" y1="10" y2="10"/>
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="my-auto"
+                    >
+                      <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+                      <line x1="16" x2="16" y1="2" y2="6" />
+                      <line x1="8" x2="8" y1="2" y2="6" />
+                      <line x1="3" x2="21" y1="10" y2="10" />
                     </svg>
                     <span>June 2023</span>
                   </p>

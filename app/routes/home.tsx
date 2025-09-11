@@ -20,15 +20,15 @@ export default function Home() {
         <section id="hero" className="bg-[#040806] py-32 px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-[#67FF83] via-[#D9FFE6] to-[#02D929] bg-clip-text text-transparent">
-              Nigeria's Flagship
+              Nigerian
               <br />
               <span className="bg-gradient-to-r from-[#67FF83] via-[#D9FFE6] to-[#02D929] bg-clip-text text-transparent">
                 Blockchain Week
               </span>
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Uniting Innovators, State by State: Blockchain Weeks Unveiling
-              Nigeria's Vision in Fintech, Governance, and Technology
+            Uniting Innovators State by State: Blockchain Weeks Showcasing Nigeria’s Vision for Fintech, Governance, and Technology.
+
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-[#70EE45] rounded-md text-black font-semibold px-8 py-3">

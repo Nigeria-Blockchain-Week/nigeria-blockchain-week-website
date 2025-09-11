@@ -8,8 +8,7 @@ const FooterNav = () => {
           <div>
             <img src="/images/Logo.svg" className="w-20 mb-3" alt="" />
             <p className="text-gray-400 text-sm">
-              Uniting innovators, state by state. Blockchain weeks unveiling
-              Nigeria's vision in fintech, governance, and technology.
+              Uniting Innovators State by State: Blockchain Weeks Showcasing Nigeria’s Vision for Fintech, Governance, and Technology.
             </p>
           </div>
 

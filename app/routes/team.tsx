@@ -248,18 +248,18 @@ export function meta({}: Route.MetaArgs) {
 const advisoryBoard = [
   {
     name: "Senator Ihenyen",
-    role: "Co-Founder BNUG/Chairman National Blockchain Policy Steering Committee",
+    role: "Lead Partner at INFUSION LAWYERS and Executive Chair of the steering committee VASPA. Former President of SiBAN and former General Secretary of BiCCoN",
     image: "/images/core/Senator.jpg",
     linkedin: "https://www.linkedin.com/in/senatorihenyen/",
     twitter: "https://x.com/SenatorIhenyen",
   },
-  // {
-  //   name: "Prof. Chike Okonkwo",
-  //   role: "Technology Innovation Expert",
-  //   image: "/images/team/advisory2.jpg",
-  //   linkedin: "#",
-  //   twitter: "#",
-  // },
+  {
+    name: "Chimezie Chuta",
+    role: "Founder/Coordinator Blockchain Nigeria User Group. Chairman National Blockchain Policy Steering Committee and CEO BlockSpace Technologies",
+    image: "/images/core/chuta.jpg",
+    linkedin: "https://www.linkedin.com/in/chimeziechuta/",
+    twitter: "https://x.com/ChimezieChuta",
+  },
   // {
   //   name: "Fatima Al-Rashid",
   //   role: "Fintech Strategic Advisor",
@@ -307,14 +307,14 @@ const coreTeam = [
   },
   {
     name: "Dominic Akpan",
-    role: "Tech Support",
+    role: "Technical Support",
     image: "/images/core/dom.jpg",
     linkedin: "https://www.linkedin.com/in/dominic-akpan-540560196?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     twitter: "http://x.com/techydom",
   },
   {
     name: "Olayinka Olawale",
-    role: "Tech Support",
+    role: "Technical Support",
     image: "/images/core/olayinka.JPG",
     linkedin: "https://www.linkedin.com/in/oluwatimilehin-abiodun-17789123a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     twitter: "https://x.com/talk_to_yinka?s=21",

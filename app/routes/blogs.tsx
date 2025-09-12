@@ -221,7 +221,7 @@ export default function Blogs() {
           </div>
         </section>
         {/* Newsletter Section */}
-        <section className="py-20 px-4 sm:px-6 lg:px-8">
+        {/* <section className="py-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center shadow-md bg-[#0B0F0D] border border-[#212922] p-6 rounded-xl">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
               Stay Up-To-Date
@@ -241,7 +241,7 @@ export default function Blogs() {
               </button>
             </div>
           </div>
-        </section>
+        </section> */}
         <FooterNav />
       </div>
     </>

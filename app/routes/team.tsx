@@ -247,91 +247,91 @@ export function meta({}: Route.MetaArgs) {
 
 const advisoryBoard = [
   {
-    name: "Dr. Amina Oyagbola",
-    role: "Blockchain Policy Advisor",
-    image: "/images/team/advisory1.jpg",
-    linkedin: "#",
-    twitter: "#",
+    name: "Senator Ihenyen",
+    role: "Co-Founder BNUG/Chairman National Blockchain Policy Steering Committee",
+    image: "/images/core/Senator.jpg",
+    linkedin: "https://www.linkedin.com/in/senatorihenyen/",
+    twitter: "https://x.com/SenatorIhenyen",
   },
-  {
-    name: "Prof. Chike Okonkwo",
-    role: "Technology Innovation Expert",
-    image: "/images/team/advisory2.jpg",
-    linkedin: "#",
-    twitter: "#",
-  },
-  {
-    name: "Fatima Al-Rashid",
-    role: "Fintech Strategic Advisor",
-    image: "/images/team/advisory3.jpg",
-    linkedin: "#",
-    twitter: "#",
-  },
-  {
-    name: "Emeka Okafor",
-    role: "Government Relations Advisor",
-    image: "/images/team/advisory4.jpg",
-    linkedin: "#",
-    twitter: "#",
-  },
+  // {
+  //   name: "Prof. Chike Okonkwo",
+  //   role: "Technology Innovation Expert",
+  //   image: "/images/team/advisory2.jpg",
+  //   linkedin: "#",
+  //   twitter: "#",
+  // },
+  // {
+  //   name: "Fatima Al-Rashid",
+  //   role: "Fintech Strategic Advisor",
+  //   image: "/images/team/advisory3.jpg",
+  //   linkedin: "#",
+  //   twitter: "#",
+  // },
+  // {
+  //   name: "Emeka Okafor",
+  //   role: "Government Relations Advisor",
+  //   image: "/images/team/advisory4.jpg",
+  //   linkedin: "#",
+  //   twitter: "#",
+  // },
 ];
 
 const coreTeam = [
   {
-    name: "Adebayo Johnson",
-    role: "Executive Director",
-    image: "/images/team/core1.jpg",
-    linkedin: "#",
-    twitter: "#",
+    name: "Enoch Mbabie",
+    role: "Convener",
+    image: "/images/core/enoch.jpg",
+    linkedin: "https://www.linkedin.com/in/cembaebie/",
+    twitter: "https://x.com/Divine_Vessel",
   },
   {
-    name: "Chioma Okwu",
+    name: "Etette Etok",
     role: "Technical Lead",
-    image: "/images/team/core2.jpg",
-    linkedin: "#",
-    twitter: "#",
+    image: "/images/core/etettee.jpg",
+    linkedin: "https://www.linkedin.com/in/etette-etok",
+    twitter: "https://x.com/Em_Etok",
   },
   {
-    name: "Ibrahim Hassan",
-    role: "Community Manager",
-    image: "/images/team/core3.jpg",
-    linkedin: "#",
-    twitter: "#",
+    name: "Rukayat Issa",
+    role: "Program Lead",
+    image: "/images/core/issa.jpg",
+    linkedin: "https://www.linkedin.com/in/rukayatissa/",
+    twitter: "https://x.com/DecentralisedPM",
+  },
+   {
+    name: "Mercy Oluwatumininu Kolapo",
+    role: "Design Lead",
+    image: "/images/core/tumi.jpg",
+    linkedin: "https://www.linkedin.com/in/mercy-kolapo?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    twitter: "https://x.com/MercyKolapo?t=N0nqncPF2zP7KUKnGa4vSg&s=09",
   },
   {
-    name: "Funmi Adeleye",
-    role: "Operations Manager",
-    image: "/images/team/core4.jpg",
-    linkedin: "#",
-    twitter: "#",
+    name: "Dominic Akpan",
+    role: "Tech Support",
+    image: "/images/core/dom.jpg",
+    linkedin: "https://www.linkedin.com/in/dominic-akpan-540560196?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    twitter: "http://x.com/techydom",
   },
   {
-    name: "Kemi Afolabi",
-    role: "Marketing Director",
-    image: "/images/team/core5.jpg",
-    linkedin: "#",
-    twitter: "#",
+    name: "Olayinka Olawale",
+    role: "Tech Support",
+    image: "/images/core/olayinka.JPG",
+    linkedin: "https://www.linkedin.com/in/oluwatimilehin-abiodun-17789123a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    twitter: "https://x.com/talk_to_yinka?s=21",
   },
   {
-    name: "Tunde Ogundimu",
-    role: "Partnership Lead",
-    image: "/images/team/core6.jpg",
-    linkedin: "#",
-    twitter: "#",
+    name: "Oluwatimilehin Abiodun ",
+    role: "Design Support",
+    image: "/images/core/olu.jpg",
+    linkedin: "https://www.linkedin.com/in/oluwatimilehin-abiodun-17789123a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    twitter: "https://x.com/web3_designguy?t=zXeO3YTJxz2PxokVGVYNGQ&s=09",
   },
   {
-    name: "Aisha Bello",
-    role: "Event Coordinator",
-    image: "/images/team/core7.jpg",
+    name: "Asu Wisdom",
+    role: "Marketing Support",
+    image: "/images/core/jojo.jpg",
     linkedin: "#",
-    twitter: "#",
-  },
-  {
-    name: "Olumide Taiwo",
-    role: "Developer Relations",
-    image: "/images/team/core8.jpg",
-    linkedin: "#",
-    twitter: "#",
+    twitter: "https://x.com/Mr__Kreative",
   },
 ];
 
@@ -398,9 +398,9 @@ export default function Team() {
                 >
                   <div className="mb-4 overflow-hidden rounded-lg">
                     <img
-                      src="/images/abuja-24.png"
+                      src={member.image}
                       alt={member.name}
-                      className="w-full h-40 rounded-lg object-cover transform transition-transform duration-300 group-hover:scale-110"
+                      className="w-full h-40 rounded-lg object-contain transform transition-transform duration-300 group-hover:scale-110"
                     />
                   </div>
                   <div className="space-y-2">
@@ -468,9 +468,9 @@ export default function Team() {
                 >
                   <div className="mb-4 overflow-hidden rounded-lg relative">
                     <img
-                      src="/images/abuja-24.png"
+                      src={member.image}
                       alt={member.name}
-                      className="w-full h-40 rounded-lg object-cover transform transition-transform duration-300 group-hover:scale-110"
+                      className="w-full h-40 rounded-lg object-contain transform transition-transform duration-300 group-hover:scale-110"
                     />
                     {/* Gradient overlay on hover */}
                     <div className="absolute inset-0 bg-gradient-to-t from-[#67FF83]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg"></div>
@@ -541,12 +541,16 @@ export default function Team() {
                   positions Nigeria as a global blockchain leader.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <a href="/#states" className="no-underline">
                   <button className="bg-[#70EE45] hover:bg-[#5fd635] rounded-lg text-black font-semibold px-8 py-3 transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[#70EE45]/20">
                     Explore State Weeks
                   </button>
+                  </a>
+                  <a href="https://bit.ly/NBWSponsorship" target="_blank" rel="noopener noreferrer">
                   <button className="border border-[#70EE45] hover:border-[#5fd635] rounded-lg font-semibold px-8 py-3 bg-white hover:bg-[#70EE45] text-black transition-all duration-300 transform hover:scale-105">
                     Sponsor an Event
                   </button>
+                  </a>
                 </div>
               </div>
             </div>

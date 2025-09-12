@@ -717,10 +717,12 @@ export default function Home() {
               Uniting Innovators State by State: Blockchain Weeks Showcasing Nigeria's Vision for Fintech, Governance, and Technology.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up delay-300">
+              <a href="#states">
               <button className="bg-[#70EE45] hover:bg-[#5fd635] rounded-md text-black font-semibold px-8 py-3 transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[#70EE45]/20">
                 Explore State Weeks
               </button>
-              <a href="https://bit.ly/NBWSponsorship" target="_blank">
+              </a>
+              <a href="https://bit.ly/NBWSponsorship" target="_blank" rel="noopener noreferrer">
                 <button className="border border-[#70EE45] hover:border-[#5fd635] rounded-md text-white font-semibold bg-transparent hover:bg-[#70EE45]/10 px-8 py-3 transform transition-all duration-300 hover:scale-105">
                   Sponsor an Event
                 </button>
@@ -751,7 +753,7 @@ export default function Home() {
               </div>
               <div className="group cursor-pointer transform transition-all duration-300 hover:scale-105 hover:bg-white/5 p-4 rounded-lg">
                 <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-[#FFFFFF] to-[#999999] bg-clip-text text-transparent mb-2 group-hover:from-[#67FF83] group-hover:to-[#02D929] transition-all duration-300">
-                  200+
+                  20+
                 </div>
                 <div className="bg-gradient-to-b from-[#FFFFFF] to-[#999999] bg-clip-text text-transparent group-hover:from-white group-hover:to-gray-300 transition-all duration-300">
                   Partners & Sponsors
@@ -759,7 +761,7 @@ export default function Home() {
               </div>
               <div className="group cursor-pointer transform transition-all duration-300 hover:scale-105 hover:bg-white/5 p-4 rounded-lg">
                 <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-[#FFFFFF] to-[#999999] bg-clip-text text-transparent mb-2 group-hover:from-[#67FF83] group-hover:to-[#02D929] transition-all duration-300">
-                  50+
+                  60+
                 </div>
                 <div className="bg-gradient-to-b from-[#FFFFFF] to-[#999999] bg-clip-text text-transparent group-hover:from-white group-hover:to-gray-300 transition-all duration-300">
                   Speakers

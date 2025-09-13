@@ -320,7 +320,7 @@ const FooterNav = () => {
                   { name: "General Inquiries", email: "info@nigeriablockchainweek.ng" },
                   { name: "Partnership Inquiries", email: "partnership@nigeriablockchainweek.ng" },
                   // { name: "Press Inquiries", email: "press@nigeriablockchainweek.ng" },
-                  { name: "Speaker Inquiries", email: "speakers@nigeriablockchainweek.ng" }
+                  // { name: "Speaker Inquiries", email: "speakers@nigeriablockchainweek.ng" }
                 ].map((contact) => (
                   <li key={contact.name}>
                     <a

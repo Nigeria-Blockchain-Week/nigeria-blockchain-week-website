@@ -692,228 +692,7 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return (
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+  return (    
     <>
       <div className="min-h-screen bg-[#040806] text-[#D2D2D2] overflow-hidden">
         <HeaderNav />
@@ -1031,10 +810,16 @@ export default function Home() {
                         </svg>
                         <span>Lagos</span>
                       </h3>
-                      <button className="flex gap-3 bg-[#16A249]/20 hover:bg-[#16A249]/30 py-1 px-4 rounded-sm transition-all duration-300">
-                        <span className="my-auto">Live</span>
-                        <div className="w-2 h-2 my-auto rounded-full bg-green-500 animate-pulse"></div>
-                      </button>
+                      <div className="flex gap-2">
+                        <button className="flex gap-3 bg-[#16A249]/20 hover:bg-[#16A249]/30 py-1 px-4 rounded-sm transition-all duration-300">
+                          <span className="my-auto">Live</span>
+                          <div className="w-2 h-2 my-auto rounded-full bg-green-500 animate-pulse"></div>
+                        </button>
+                        <button className="flex gap-3 bg-green-400 hover:bg-[#16A249]/30 py-1 px-4 rounded-sm transition-all duration-300">
+                          <span className="my-auto text-black hover:text-white">View</span>
+                          <div className="w-2 h-2 my-auto rounded-full bg-green-500 animate-pulse"></div>
+                        </button>
+                      </div>
                     </div>
                     <p className="text-gray-300 text-sm font-semibold">AI X Blockchain</p>
                     <p className="text-gray-400 text-sm my-3">
@@ -1091,10 +876,16 @@ export default function Home() {
                         </svg>
                         <span>Abuja</span>
                       </h3>
-                      <button className="flex gap-3 bg-[#16A249]/20 hover:bg-[#16A249]/30 py-1 px-4 rounded-sm transition-all duration-300">
-                        <span className="my-auto">Live</span>
-                        <div className="w-2 h-2 my-auto rounded-full bg-green-500 animate-pulse"></div>
-                      </button>
+                      <div className="flex gap-2">
+                        <button className="flex gap-3 bg-[#16A249]/20 hover:bg-[#16A249]/30 py-1 px-4 rounded-sm transition-all duration-300">
+                          <span className="my-auto">Live</span>
+                          <div className="w-2 h-2 my-auto rounded-full bg-green-500 animate-pulse"></div>
+                        </button>
+                        <button className="flex gap-3 bg-green-400 hover:bg-[#16A249]/30 py-1 px-4 rounded-sm transition-all duration-300">
+                          <span className="my-auto text-black hover:text-white">View</span>
+                          <div className="w-2 h-2 my-auto rounded-full bg-green-500 animate-pulse"></div>
+                        </button>
+                      </div>
                     </div>
                     <p className="text-gray-300 text-sm font-semibold">Policy, Trust & Innovation</p>
                     <p className="text-gray-400 text-sm my-3">
@@ -1457,7 +1248,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="group p-4 rounded-lg border border-[#212922] hover:border-[#67FF83]/30 transform transition-all duration-300 hover:scale-102 hover:shadow-lg hover:shadow-[#67FF83]/10">
+                {/* <div className="group p-4 rounded-lg border border-[#212922] hover:border-[#67FF83]/30 transform transition-all duration-300 hover:scale-102 hover:shadow-lg hover:shadow-[#67FF83]/10">
                   <div className="overflow-hidden rounded-md mb-3">
                     <img
                       src="/images/abuja-24.png"
@@ -1506,9 +1297,9 @@ export default function Home() {
                       <span>September 2024</span>
                     </p>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="group p-4 rounded-lg border border-[#212922] hover:border-[#67FF83]/30 transform transition-all duration-300 hover:scale-102 hover:shadow-lg hover:shadow-[#67FF83]/10">
+                {/* <div className="group p-4 rounded-lg border border-[#212922] hover:border-[#67FF83]/30 transform transition-all duration-300 hover:scale-102 hover:shadow-lg hover:shadow-[#67FF83]/10">
                   <div className="overflow-hidden rounded-md mb-3">
                     <img
                       src="/images/lagos-23.png"
@@ -1557,7 +1348,7 @@ export default function Home() {
                       <span>June 2023</span>
                     </p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

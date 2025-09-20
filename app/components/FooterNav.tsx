@@ -252,8 +252,8 @@ const FooterNav = () => {
               </h4>
               <ul className="space-y-3">
                 {[
-                  { name: "Lagos Blockchain Week 2024", url: "#", external: true },
-                  { name: "Abuja Blockchain Week 2024", url: "#", external: false },
+                  { name: "Lagos Blockchain Week 2024", url: "https://streameth.org/66636b641e7953197957825f", external: true },
+                  // { name: "Abuja Blockchain Week 2024", url: "#", external: false },
                   { name: "All States", url: "#", external: false }
                 ].map((link) => (
                   <li key={link.name}>

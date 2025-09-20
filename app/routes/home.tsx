@@ -691,6 +691,10 @@ export function meta({}: Route.MetaArgs) {
   ];
 }
 
+const handleDivClick = (url: string) => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+};
+
 export default function Home() {
   return (    
     <>
@@ -1205,12 +1209,12 @@ export default function Home() {
                       className="w-full h-44 object-cover rounded-md transform transition-transform duration-300 group-hover:scale-110"
                     />
                   </div>
-                  <div className="my-3">
+                  {/* <div className="my-3">
                     <h3 className="text-lg font-bold text-white mb-3 group-hover:text-[#67FF83] transition-colors duration-300">
                       Lagos Blockchain Week 2024
                     </h3>
-                    <a href="https://bit.ly/LBW2024Gallery" target="_blank" className="text-[#70EE45] hover:text-[#5fd635] flex gap-3 mb-3 text-sm cursor-pointer items-center transform transition-all duration-300 hover:translate-x-1">
-                      <span>Visit Website</span>
+                    <a href="https://streameth.org/66636b641e7953197957825f" target="_blank" className="text-[#70EE45] hover:text-[#5fd635] flex gap-3 mb-3 text-sm cursor-pointer items-center transform transition-all duration-300 hover:translate-x-1">
+                      <span>Recap the Moments</span>
                       <svg
                         width="16"
                         height="16"
@@ -1245,7 +1249,60 @@ export default function Home() {
                       </svg>
                       <span>June 2024</span>
                     </p>
-                  </div>
+                  </div> */}
+<div 
+    className="my-3 cursor-pointer group"
+    onClick={() => handleDivClick('https://streameth.org/66636b641e7953197957825f')}
+    onKeyDown={(e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            handleDivClick('https://streameth.org/66636b641e7953197957825f');
+        }
+    }}
+    tabIndex={0}
+    role="button"
+    aria-label="View Lagos Blockchain Week 2024 Recap"
+>
+    <h3 className="text-lg font-bold text-white mb-3 group-hover:text-[#67FF83] transition-colors duration-300">
+        Lagos Blockchain Week 2024
+    </h3>
+    <div className="text-[#70EE45] group-hover:text-[#5fd635] flex gap-3 mb-3 text-sm items-center transform transition-all duration-300 group-hover:translate-x-1">
+        <span>Recap the Moments</span>
+        <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="transform transition-transform duration-300 group-hover:translate-x-1"
+        >
+            <path d="M5 12h14" />
+            <path d="m12 5 7 7-7 7" />
+        </svg>
+    </div>
+    <p className="flex gap-3 text-gray-300">
+        <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="my-auto"
+        >
+            <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+            <line x1="16" x2="16" y1="2" y2="6" />
+            <line x1="8" x2="8" y1="2" y2="6" />
+            <line x1="3" x2="21" y1="10" y2="10" />
+        </svg>
+        <span>June 2024</span>
+    </p>
+</div>
                 </div>
 
                 {/* <div className="group p-4 rounded-lg border border-[#212922] hover:border-[#67FF83]/30 transform transition-all duration-300 hover:scale-102 hover:shadow-lg hover:shadow-[#67FF83]/10">

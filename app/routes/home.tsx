@@ -776,7 +776,7 @@ export default function Home() {
         </section>
 
         {/* Discover Section - Enhanced cards */}
-        <section id="states" className="py-20 px-4 sm:px-6 lg:px-8">
+        {/* <section id="states" className="py-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -976,11 +976,126 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-
               <div className="group cursor-pointer p-4 rounded-lg border border-[#212922] hover:border-gray-500/30 bg-[#0B0F0D] hover:bg-[#0F1510] transform transition-all duration-300 hover:scale-102">
                 <div className="overflow-hidden rounded-md mb-3 relative">
                   <img
-                    src="/images/rivers.png"
+                    src="/images/crs2.jpg"
+                    alt="cross river"
+                    className="w-full h-44 object-cover rounded-md transform transition-transform duration-300 group-hover:scale-110 opacity-70"
+                  />
+                  <div className="absolute inset-0 bg-black/40 rounded-md flex items-center justify-center">
+                    <span className="text-white font-semibold bg-black/60 px-4 py-2 rounded-full">Coming Soon</span>
+                  </div>
+                </div>
+                <div className="my-3">
+                  <div className="mb-2 flex justify-between items-center">
+                    <h3 className="text-lg flex gap-3 font-bold text-white mb-1">
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="my-auto text-green-500"
+                      >
+                        <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                        <circle cx="12" cy="10" r="3" />
+                      </svg>
+                      <span>Cross River</span>
+                    </h3>
+                    <button className="flex gap-3 bg-gray-800 py-1 px-4 rounded-sm">
+                      <span className="my-auto">Soon</span>
+                      <div className="w-2 h-2 my-auto rounded-full bg-gray-500 animate-pulse"></div>
+                    </button>
+                  </div>
+                  <p className="text-gray-300 text-sm">TBA</p>
+                  <p className="text-gray-400 text-sm my-3">Coming Soon</p>
+                  <p className="flex gap-3 text-gray-400">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="my-auto"
+                    >
+                      <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+                      <line x1="16" x2="16" y1="2" y2="6" />
+                      <line x1="8" x2="8" y1="2" y2="6" />
+                      <line x1="3" x2="21" y1="10" y2="10" />
+                    </svg>
+                    <span>2025</span>
+                  </p>
+                </div>
+              </div>
+              <div className="group cursor-pointer p-4 rounded-lg border border-[#212922] hover:border-gray-500/30 bg-[#0B0F0D] hover:bg-[#0F1510] transform transition-all duration-300 hover:scale-102">
+                <div className="overflow-hidden rounded-md mb-3 relative">
+                  <img
+                    src="/images/enugu.jpg"
+                    alt="enugu"
+                    className="w-full h-44 object-cover rounded-md transform transition-transform duration-300 group-hover:scale-110 opacity-70"
+                  />
+                  <div className="absolute inset-0 bg-black/40 rounded-md flex items-center justify-center">
+                    <span className="text-white font-semibold bg-black/60 px-4 py-2 rounded-full">Coming Soon</span>
+                  </div>
+                </div>
+                <div className="my-3">
+                  <div className="mb-2 flex justify-between items-center">
+                    <h3 className="text-lg flex gap-3 font-bold text-white mb-1">
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="my-auto text-green-500"
+                      >
+                        <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                        <circle cx="12" cy="10" r="3" />
+                      </svg>
+                      <span>Enugu</span>
+                    </h3>
+                    <button className="flex gap-3 bg-gray-800 py-1 px-4 rounded-sm">
+                      <span className="my-auto">Soon</span>
+                      <div className="w-2 h-2 my-auto rounded-full bg-gray-500 animate-pulse"></div>
+                    </button>
+                  </div>
+                  <p className="text-gray-300 text-sm">TBA</p>
+                  <p className="text-gray-400 text-sm my-3">Coming Soon</p>
+                  <p className="flex gap-3 text-gray-400">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="my-auto"
+                    >
+                      <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+                      <line x1="16" x2="16" y1="2" y2="6" />
+                      <line x1="8" x2="8" y1="2" y2="6" />
+                      <line x1="3" x2="21" y1="10" y2="10" />
+                    </svg>
+                    <span>2025</span>
+                  </p>
+                </div>
+              </div>
+              <div className="group cursor-pointer p-4 rounded-lg border border-[#212922] hover:border-gray-500/30 bg-[#0B0F0D] hover:bg-[#0F1510] transform transition-all duration-300 hover:scale-102">
+                <div className="overflow-hidden rounded-md mb-3 relative">
+                  <img
+                    src="/images/riverss.jpg"
                     alt="Rivers"
                     className="w-full h-44 object-cover rounded-md transform transition-transform duration-300 group-hover:scale-110 opacity-70"
                   />
@@ -1035,9 +1150,742 @@ export default function Home() {
                   </p>
                 </div>
               </div>
+              <div className="group cursor-pointer p-4 rounded-lg border border-[#212922] hover:border-gray-500/30 bg-[#0B0F0D] hover:bg-[#0F1510] transform transition-all duration-300 hover:scale-102">
+                <div className="overflow-hidden rounded-md mb-3 relative">
+                  <img
+                    src="/images/kano.jpg"
+                    alt="Kano"
+                    className="w-full h-44 object-cover rounded-md transform transition-transform duration-300 group-hover:scale-110 opacity-70"
+                  />
+                  <div className="absolute inset-0 bg-black/40 rounded-md flex items-center justify-center">
+                    <span className="text-white font-semibold bg-black/60 px-4 py-2 rounded-full">Coming Soon</span>
+                  </div>
+                </div>
+                <div className="my-3">
+                  <div className="mb-2 flex justify-between items-center">
+                    <h3 className="text-lg flex gap-3 font-bold text-white mb-1">
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="my-auto text-green-500"
+                      >
+                        <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                        <circle cx="12" cy="10" r="3" />
+                      </svg>
+                      <span>Kano</span>
+                    </h3>
+                    <button className="flex gap-3 bg-gray-800 py-1 px-4 rounded-sm">
+                      <span className="my-auto">Soon</span>
+                      <div className="w-2 h-2 my-auto rounded-full bg-gray-500 animate-pulse"></div>
+                    </button>
+                  </div>
+                  <p className="text-gray-300 text-sm">TBA</p>
+                  <p className="text-gray-400 text-sm my-3">Coming Soon</p>
+                  <p className="flex gap-3 text-gray-400">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="my-auto"
+                    >
+                      <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+                      <line x1="16" x2="16" y1="2" y2="6" />
+                      <line x1="8" x2="8" y1="2" y2="6" />
+                      <line x1="3" x2="21" y1="10" y2="10" />
+                    </svg>
+                    <span>2025</span>
+                  </p>
+                </div>
+              </div>
+              <div className="group cursor-pointer p-4 rounded-lg border border-[#212922] hover:border-gray-500/30 bg-[#0B0F0D] hover:bg-[#0F1510] transform transition-all duration-300 hover:scale-102">
+                <div className="overflow-hidden rounded-md mb-3 relative">
+                  <img
+                    src="/images/aks.jpg"
+                    alt="akwa ibom"
+                    className="w-full h-44 object-cover rounded-md transform transition-transform duration-300 group-hover:scale-110 opacity-70"
+                  />
+                  <div className="absolute inset-0 bg-black/40 rounded-md flex items-center justify-center">
+                    <span className="text-white font-semibold bg-black/60 px-4 py-2 rounded-full">Coming Soon</span>
+                  </div>
+                </div>
+                <div className="my-3">
+                  <div className="mb-2 flex justify-between items-center">
+                    <h3 className="text-lg flex gap-3 font-bold text-white mb-1">
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="my-auto text-green-500"
+                      >
+                        <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                        <circle cx="12" cy="10" r="3" />
+                      </svg>
+                      <span>Akwa Ibom</span>
+                    </h3>
+                    <button className="flex gap-3 bg-gray-800 py-1 px-4 rounded-sm">
+                      <span className="my-auto">Soon</span>
+                      <div className="w-2 h-2 my-auto rounded-full bg-gray-500 animate-pulse"></div>
+                    </button>
+                  </div>
+                  <p className="text-gray-300 text-sm">TBA</p>
+                  <p className="text-gray-400 text-sm my-3">Coming Soon</p>
+                  <p className="flex gap-3 text-gray-400">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="my-auto"
+                    >
+                      <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+                      <line x1="16" x2="16" y1="2" y2="6" />
+                      <line x1="8" x2="8" y1="2" y2="6" />
+                      <line x1="3" x2="21" y1="10" y2="10" />
+                    </svg>
+                    <span>2025</span>
+                  </p>
+                </div>
+              </div>
+              <div className="group cursor-pointer p-4 rounded-lg border border-[#212922] hover:border-gray-500/30 bg-[#0B0F0D] hover:bg-[#0F1510] transform transition-all duration-300 hover:scale-102">
+                <div className="overflow-hidden rounded-md mb-3 relative">
+                  <img
+                    src="/images/abia2.jpg"
+                    alt="Abia"
+                    className="w-full h-44 object-cover rounded-md transform transition-transform duration-300 group-hover:scale-110 opacity-70"
+                  />
+                  <div className="absolute inset-0 bg-black/40 rounded-md flex items-center justify-center">
+                    <span className="text-white font-semibold bg-black/60 px-4 py-2 rounded-full">Coming Soon</span>
+                  </div>
+                </div>
+                <div className="my-3">
+                  <div className="mb-2 flex justify-between items-center">
+                    <h3 className="text-lg flex gap-3 font-bold text-white mb-1">
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="my-auto text-green-500"
+                      >
+                        <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                        <circle cx="12" cy="10" r="3" />
+                      </svg>
+                      <span>Abia</span>
+                    </h3>
+                    <button className="flex gap-3 bg-gray-800 py-1 px-4 rounded-sm">
+                      <span className="my-auto">Soon</span>
+                      <div className="w-2 h-2 my-auto rounded-full bg-gray-500 animate-pulse"></div>
+                    </button>
+                  </div>
+                  <p className="text-gray-300 text-sm">TBA</p>
+                  <p className="text-gray-400 text-sm my-3">Coming Soon</p>
+                  <p className="flex gap-3 text-gray-400">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="my-auto"
+                    >
+                      <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+                      <line x1="16" x2="16" y1="2" y2="6" />
+                      <line x1="8" x2="8" y1="2" y2="6" />
+                      <line x1="3" x2="21" y1="10" y2="10" />
+                    </svg>
+                    <span>2025</span>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-        </section>
+        </section> */}
+
+        <section id="states" className="py-20 px-4 sm:px-6 lg:px-8">
+  <div className="max-w-6xl mx-auto">
+    <div className="text-center mb-12">
+      <h2 className="text-3xl md:text-4xl font-bold mb-4">
+        Discover Blockchain Weeks Near You
+      </h2>
+      <p className="text-gray-400">Stay tuned for more states joining in soon!</p>
+    </div>
+
+    <div className="grid md:grid-cols-2 gap-6">
+      <Link to={"https://lagosblockchainweek.io/"}>
+                <div className="group cursor-pointer p-4 rounded-lg border border-[#212922] hover:border-[#67FF83]/30 bg-[#0B0F0D] hover:bg-[#0F1510] transform transition-all duration-300 hover:scale-102 hover:shadow-xl hover:shadow-[#67FF83]/10">
+                  <div className="overflow-hidden rounded-md mb-3">
+                    <img
+                      src="/images/lagos.png"
+                      alt="Lagos"
+                      className="w-full h-44 object-cover rounded-md transform transition-transform duration-300 group-hover:scale-110"
+                    />
+                  </div>
+                  <div className="my-3">
+                    <div className="mb-2 flex justify-between items-center">
+                      <h3 className="text-lg flex gap-3 font-bold text-white mb-1 group-hover:text-[#67FF83] transition-colors duration-300">
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="my-auto text-green-500 group-hover:animate-bounce"
+                        >
+                          <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                          <circle cx="12" cy="10" r="3" />
+                        </svg>
+                        <span>Lagos</span>
+                      </h3>
+                      <div className="flex gap-2">
+                        <button className="flex gap-3 bg-[#16A249]/20 hover:bg-[#16A249]/30 py-1 px-4 rounded-sm transition-all duration-300">
+                          <span className="my-auto">Live</span>
+                          <div className="w-2 h-2 my-auto rounded-full bg-green-500 animate-pulse"></div>
+                        </button>
+                        <button className="flex gap-3 bg-green-400 hover:bg-[#16A249]/30 py-1 px-4 rounded-sm transition-all duration-300">
+                          <span className="my-auto text-black hover:text-white">View</span>
+                          <div className="w-2 h-2 my-auto rounded-full bg-green-500 animate-pulse"></div>
+                        </button>
+                      </div>
+                    </div>
+                    <p className="text-gray-300 text-sm font-semibold">AI X Blockchain</p>
+                    <p className="text-gray-400 text-sm my-3">
+                      The Intelligent Infrastructure of Tomorrow
+                    </p>
+                    <p className="flex gap-3 text-gray-300">
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="my-auto"
+                      >
+                        <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+                        <line x1="16" x2="16" y1="2" y2="6" />
+                        <line x1="8" x2="8" y1="2" y2="6" />
+                        <line x1="3" x2="21" y1="10" y2="10" />
+                      </svg>
+                      <span>4th November - 8th November 2025</span>
+                    </p>
+                  </div>
+                </div>
+              </Link>
+
+              <Link to={"http://abujablockchainweek.ng/"}>
+                <div className="group cursor-pointer p-4 rounded-lg border border-[#212922] hover:border-[#67FF83]/30 bg-[#0B0F0D] hover:bg-[#0F1510] transform transition-all duration-300 hover:scale-102 hover:shadow-xl hover:shadow-[#67FF83]/10">
+                  <div className="overflow-hidden rounded-md mb-3">
+                    <img
+                      src="/images/abuja.png"
+                      alt="Abuja"
+                      className="w-full h-44 object-cover rounded-md transform transition-transform duration-300 group-hover:scale-110"
+                    />
+                  </div>
+                  <div className="my-3">
+                    <div className="mb-2 flex justify-between items-center">
+                      <h3 className="text-lg flex gap-3 font-bold text-white mb-1 group-hover:text-[#67FF83] transition-colors duration-300">
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="my-auto text-green-500 group-hover:animate-bounce"
+                        >
+                          <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                          <circle cx="12" cy="10" r="3" />
+                        </svg>
+                        <span>Abuja</span>
+                      </h3>
+                      <div className="flex gap-2">
+                        <button className="flex gap-3 bg-[#16A249]/20 hover:bg-[#16A249]/30 py-1 px-4 rounded-sm transition-all duration-300">
+                          <span className="my-auto">Live</span>
+                          <div className="w-2 h-2 my-auto rounded-full bg-green-500 animate-pulse"></div>
+                        </button>
+                        <button className="flex gap-3 bg-green-400 hover:bg-[#16A249]/30 py-1 px-4 rounded-sm transition-all duration-300">
+                          <span className="my-auto text-black hover:text-white">View</span>
+                          <div className="w-2 h-2 my-auto rounded-full bg-green-500 animate-pulse"></div>
+                        </button>
+                      </div>
+                    </div>
+                    <p className="text-gray-300 text-sm font-semibold">Policy, Trust & Innovation</p>
+                    <p className="text-gray-400 text-sm my-3">
+                      Shaping Nigeria's Digital Governance
+                    </p>
+                    <p className="flex gap-3 text-gray-300">
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="my-auto"
+                      >
+                        <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+                        <line x1="16" x2="16" y1="2" y2="6" />
+                        <line x1="8" x2="8" y1="2" y2="6" />
+                        <line x1="3" x2="21" y1="10" y2="10" />
+                      </svg>
+                      <span>27th October - 1st November 2025</span>
+                    </p>
+                  </div>
+                </div>
+              </Link>
+
+      <div className="group cursor-pointer p-4 rounded-lg border border-[#212922] hover:border-gray-500/30 bg-[#0B0F0D] hover:bg-[#0F1510] transform transition-all duration-300 hover:scale-102">
+        <div className="overflow-hidden rounded-md mb-3 relative">
+          <img
+            src="/images/anambra.jpg"
+            alt="Anambra"
+            className="w-full h-44 object-cover rounded-md transform transition-transform duration-300 group-hover:scale-110 opacity-75 filter brightness-85 contrast-105"
+          />
+          <div className="absolute inset-0 bg-black/35 rounded-md flex items-center justify-center">
+            <span className="text-white font-semibold bg-black/60 px-4 py-2 rounded-full">Coming Soon</span>
+          </div>
+        </div>
+        <div className="my-3">
+          <div className="mb-2 flex justify-between items-center">
+            <h3 className="text-lg flex gap-3 font-bold text-white mb-1">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="my-auto text-green-500"
+              >
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              <span>Anambra</span>
+            </h3>
+            <button className="flex gap-3 bg-gray-800 py-1 px-4 rounded-sm">
+              <span className="my-auto">Soon</span>
+              <div className="w-2 h-2 my-auto rounded-full bg-gray-500 animate-pulse"></div>
+            </button>
+          </div>
+          <p className="text-gray-300 text-sm">TBA</p>
+          <p className="text-gray-400 text-sm my-3">Coming Soon</p>
+          <p className="flex gap-3 text-gray-400">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="my-auto"
+            >
+              <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+              <line x1="16" x2="16" y1="2" y2="6" />
+              <line x1="8" x2="8" y1="2" y2="6" />
+              <line x1="3" x2="21" y1="10" y2="10" />
+            </svg>
+            <span>2025</span>
+          </p>
+        </div>
+      </div>
+
+      <div className="group cursor-pointer p-4 rounded-lg border border-[#212922] hover:border-gray-500/30 bg-[#0B0F0D] hover:bg-[#0F1510] transform transition-all duration-300 hover:scale-102">
+        <div className="overflow-hidden rounded-md mb-3 relative">
+          <img
+            src="/images/crs2.jpg"
+            alt="cross river"
+            className="w-full h-44 object-cover rounded-md transform transition-transform duration-300 group-hover:scale-110 opacity-75 filter brightness-85 contrast-105"
+          />
+          <div className="absolute inset-0 bg-black/35 rounded-md flex items-center justify-center">
+            <span className="text-white font-semibold bg-black/60 px-4 py-2 rounded-full">Coming Soon</span>
+          </div>
+        </div>
+        <div className="my-3">
+          <div className="mb-2 flex justify-between items-center">
+            <h3 className="text-lg flex gap-3 font-bold text-white mb-1">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="my-auto text-green-500"
+              >
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              <span>Cross River</span>
+            </h3>
+            <button className="flex gap-3 bg-gray-800 py-1 px-4 rounded-sm">
+              <span className="my-auto">Soon</span>
+              <div className="w-2 h-2 my-auto rounded-full bg-gray-500 animate-pulse"></div>
+            </button>
+          </div>
+          <p className="text-gray-300 text-sm">TBA</p>
+          <p className="text-gray-400 text-sm my-3">Coming Soon</p>
+          <p className="flex gap-3 text-gray-400">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="my-auto"
+            >
+              <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+              <line x1="16" x2="16" y1="2" y2="6" />
+              <line x1="8" x2="8" y1="2" y2="6" />
+              <line x1="3" x2="21" y1="10" y2="10" />
+            </svg>
+            <span>2025</span>
+          </p>
+        </div>
+      </div>
+
+      <div className="group cursor-pointer p-4 rounded-lg border border-[#212922] hover:border-gray-500/30 bg-[#0B0F0D] hover:bg-[#0F1510] transform transition-all duration-300 hover:scale-102">
+        <div className="overflow-hidden rounded-md mb-3 relative">
+          <img
+            src="/images/enugu2.jpg"
+            alt="enugu"
+            className="w-full h-44 object-cover rounded-md transform transition-transform duration-300 group-hover:scale-110 opacity-75 filter brightness-85 contrast-105"
+          />
+          <div className="absolute inset-0 bg-black/35 rounded-md flex items-center justify-center">
+            <span className="text-white font-semibold bg-black/60 px-4 py-2 rounded-full">Coming Soon</span>
+          </div>
+        </div>
+        <div className="my-3">
+          <div className="mb-2 flex justify-between items-center">
+            <h3 className="text-lg flex gap-3 font-bold text-white mb-1">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="my-auto text-green-500"
+              >
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              <span>Enugu</span>
+            </h3>
+            <button className="flex gap-3 bg-gray-800 py-1 px-4 rounded-sm">
+              <span className="my-auto">Soon</span>
+              <div className="w-2 h-2 my-auto rounded-full bg-gray-500 animate-pulse"></div>
+            </button>
+          </div>
+          <p className="text-gray-300 text-sm">TBA</p>
+          <p className="text-gray-400 text-sm my-3">Coming Soon</p>
+          <p className="flex gap-3 text-gray-400">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="my-auto"
+            >
+              <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+              <line x1="16" x2="16" y1="2" y2="6" />
+              <line x1="8" x2="8" y1="2" y2="6" />
+              <line x1="3" x2="21" y1="10" y2="10" />
+            </svg>
+            <span>2025</span>
+          </p>
+        </div>
+      </div>
+
+      <div className="group cursor-pointer p-4 rounded-lg border border-[#212922] hover:border-gray-500/30 bg-[#0B0F0D] hover:bg-[#0F1510] transform transition-all duration-300 hover:scale-102">
+        <div className="overflow-hidden rounded-md mb-3 relative">
+          <img
+            src="/images/riverss.jpg"
+            alt="Rivers"
+            className="w-full h-44 object-cover rounded-md transform transition-transform duration-300 group-hover:scale-110 opacity-75 filter brightness-85 contrast-105"
+          />
+          <div className="absolute inset-0 bg-black/35 rounded-md flex items-center justify-center">
+            <span className="text-white font-semibold bg-black/60 px-4 py-2 rounded-full">Coming Soon</span>
+          </div>
+        </div>
+        <div className="my-3">
+          <div className="mb-2 flex justify-between items-center">
+            <h3 className="text-lg flex gap-3 font-bold text-white mb-1">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="my-auto text-green-500"
+              >
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              <span>Rivers</span>
+            </h3>
+            <button className="flex gap-3 bg-gray-800 py-1 px-4 rounded-sm">
+              <span className="my-auto">Soon</span>
+              <div className="w-2 h-2 my-auto rounded-full bg-gray-500 animate-pulse"></div>
+            </button>
+          </div>
+          <p className="text-gray-300 text-sm">TBA</p>
+          <p className="text-gray-400 text-sm my-3">Coming Soon</p>
+          <p className="flex gap-3 text-gray-400">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="my-auto"
+            >
+              <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+              <line x1="16" x2="16" y1="2" y2="6" />
+              <line x1="8" x2="8" y1="2" y2="6" />
+              <line x1="3" x2="21" y1="10" y2="10" />
+            </svg>
+            <span>2025</span>
+          </p>
+        </div>
+      </div>
+
+      <div className="group cursor-pointer p-4 rounded-lg border border-[#212922] hover:border-gray-500/30 bg-[#0B0F0D] hover:bg-[#0F1510] transform transition-all duration-300 hover:scale-102">
+        <div className="overflow-hidden rounded-md mb-3 relative">
+          <img
+            src="/images/kano.jpg"
+            alt="Kano"
+            className="w-full h-44 object-cover rounded-md transform transition-transform duration-300 group-hover:scale-110 opacity-75 filter brightness-85 contrast-105"
+          />
+          <div className="absolute inset-0 bg-black/35 rounded-md flex items-center justify-center">
+            <span className="text-white font-semibold bg-black/60 px-4 py-2 rounded-full">Coming Soon</span>
+          </div>
+        </div>
+        <div className="my-3">
+          <div className="mb-2 flex justify-between items-center">
+            <h3 className="text-lg flex gap-3 font-bold text-white mb-1">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="my-auto text-green-500"
+              >
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              <span>Kano</span>
+            </h3>
+            <button className="flex gap-3 bg-gray-800 py-1 px-4 rounded-sm">
+              <span className="my-auto">Soon</span>
+              <div className="w-2 h-2 my-auto rounded-full bg-gray-500 animate-pulse"></div>
+            </button>
+          </div>
+          <p className="text-gray-300 text-sm">TBA</p>
+          <p className="text-gray-400 text-sm my-3">Coming Soon</p>
+          <p className="flex gap-3 text-gray-400">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="my-auto"
+            >
+              <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+              <line x1="16" x2="16" y1="2" y2="6" />
+              <line x1="8" x2="8" y1="2" y2="6" />
+              <line x1="3" x2="21" y1="10" y2="10" />
+            </svg>
+            <span>2025</span>
+          </p>
+        </div>
+      </div>
+
+      <div className="group cursor-pointer p-4 rounded-lg border border-[#212922] hover:border-gray-500/30 bg-[#0B0F0D] hover:bg-[#0F1510] transform transition-all duration-300 hover:scale-102">
+        <div className="overflow-hidden rounded-md mb-3 relative">
+          <img
+            src="/images/aks.jpg"
+            alt="akwa ibom"
+            className="w-full h-44 object-cover rounded-md transform transition-transform duration-300 group-hover:scale-110 opacity-75 filter brightness-85 contrast-105"
+          />
+          <div className="absolute inset-0 bg-black/35 rounded-md flex items-center justify-center">
+            <span className="text-white font-semibold bg-black/60 px-4 py-2 rounded-full">Coming Soon</span>
+          </div>
+        </div>
+        <div className="my-3">
+          <div className="mb-2 flex justify-between items-center">
+            <h3 className="text-lg flex gap-3 font-bold text-white mb-1">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="my-auto text-green-500"
+              >
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              <span>Akwa Ibom</span>
+            </h3>
+            <button className="flex gap-3 bg-gray-800 py-1 px-4 rounded-sm">
+              <span className="my-auto">Soon</span>
+              <div className="w-2 h-2 my-auto rounded-full bg-gray-500 animate-pulse"></div>
+            </button>
+          </div>
+          <p className="text-gray-300 text-sm">TBA</p>
+          <p className="text-gray-400 text-sm my-3">Coming Soon</p>
+          <p className="flex gap-3 text-gray-400">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="my-auto"
+            >
+              <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+              <line x1="16" x2="16" y1="2" y2="6" />
+              <line x1="8" x2="8" y1="2" y2="6" />
+              <line x1="3" x2="21" y1="10" y2="10" />
+            </svg>
+            <span>2025</span>
+          </p>
+        </div>
+      </div>
+
+      <div className="group cursor-pointer p-4 rounded-lg border border-[#212922] hover:border-gray-500/30 bg-[#0B0F0D] hover:bg-[#0F1510] transform transition-all duration-300 hover:scale-102">
+        <div className="overflow-hidden rounded-md mb-3 relative">
+          <img
+            src="/images/abia2.jpg"
+            alt="Abia"
+            className="w-full h-44 object-cover rounded-md transform transition-transform duration-300 group-hover:scale-110 opacity-75 filter brightness-85 contrast-105"
+          />
+          <div className="absolute inset-0 bg-black/35 rounded-md flex items-center justify-center">
+            <span className="text-white font-semibold bg-black/60 px-4 py-2 rounded-full">Coming Soon</span>
+          </div>
+        </div>
+        <div className="my-3">
+          <div className="mb-2 flex justify-between items-center">
+            <h3 className="text-lg flex gap-3 font-bold text-white mb-1">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="my-auto text-green-500"
+              >
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              <span>Abia</span>
+            </h3>
+            <button className="flex gap-3 bg-gray-800 py-1 px-4 rounded-sm">
+              <span className="my-auto">Soon</span>
+              <div className="w-2 h-2 my-auto rounded-full bg-gray-500 animate-pulse"></div>
+            </button>
+          </div>
+          <p className="text-gray-300 text-sm">TBA</p>
+          <p className="text-gray-400 text-sm my-3">Coming Soon</p>
+          <p className="flex gap-3 text-gray-400">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="my-auto"
+            >
+              <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+              <line x1="16" x2="16" y1="2" y2="6" />
+              <line x1="8" x2="8" y1="2" y2="6" />
+              <line x1="3" x2="21" y1="10" y2="10" />
+            </svg>
+            <span>2025</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
         {/* Building Blocks Section - Enhanced with staggered animations */}
         <section id="BBBE" className="py-20 px-4 sm:px-6 lg:px-8">

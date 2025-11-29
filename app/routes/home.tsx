@@ -1398,7 +1398,7 @@ export default function Home() {
                         <line x1="8" x2="8" y1="2" y2="6" />
                         <line x1="3" x2="21" y1="10" y2="10" />
                       </svg>
-                      <span>10th - 13th December 2025</span>
+                      <span>13th December 2025</span>
                     </p>
                   </div>
                 </div>
@@ -1464,7 +1464,7 @@ export default function Home() {
                         <line x1="8" x2="8" y1="2" y2="6" />
                         <line x1="3" x2="21" y1="10" y2="10" />
                       </svg>
-                      <span>1st - 4th December 2025</span>
+                      <span>8th - 13th December 2025</span>
                     </p>
                   </div>
                 </div>

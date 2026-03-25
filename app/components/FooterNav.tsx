@@ -345,7 +345,7 @@ const FooterNav = () => {
         <div className="border-t border-[#202221]/50 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm text-gray-400">
-              © 2025 Nigeria Blockchain Week. All rights reserved.
+              © 2026 Nigeria Blockchain Week. All rights reserved.
             </div>
             
             <div className="flex space-x-6 text-xs text-gray-500">

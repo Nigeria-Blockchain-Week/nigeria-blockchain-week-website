@@ -1338,7 +1338,7 @@ export default function Home() {
     </div>
 
     <div className="grid md:grid-cols-2 gap-6">
-      <Link to={"https://lagosblockchainweek.io/"}>
+      <Link to={"https://lagosblockchainweek.ng/"}>
                 <div className="group cursor-pointer p-4 rounded-lg border border-[#212922] hover:border-[#67FF83]/30 bg-[#0B0F0D] hover:bg-[#0F1510] transform transition-all duration-300 hover:scale-102 hover:shadow-xl hover:shadow-[#67FF83]/10">
                   <div className="overflow-hidden rounded-md mb-3">
                     <img
@@ -1379,7 +1379,7 @@ export default function Home() {
                     </div>
                     <p className="text-gray-300 text-sm font-semibold">AI X Blockchain</p>
                     <p className="text-gray-400 text-sm my-3">
-                      The Intelligent Infrastructure of Tomorrow
+                      The Intelligent Economy: Convergence of AI Agents and Web3 Rails in Africa.
                     </p>
                     <p className="flex gap-3 text-gray-300">
                       <svg
@@ -1398,7 +1398,7 @@ export default function Home() {
                         <line x1="8" x2="8" y1="2" y2="6" />
                         <line x1="3" x2="21" y1="10" y2="10" />
                       </svg>
-                      <span>13th December 2025</span>
+                      <span>9th - 11th July 2026</span>
                     </p>
                   </div>
                 </div>
@@ -1464,7 +1464,7 @@ export default function Home() {
                         <line x1="8" x2="8" y1="2" y2="6" />
                         <line x1="3" x2="21" y1="10" y2="10" />
                       </svg>
-                      <span>8th - 13th December 2025</span>
+                      <span>8th - 13th July 2026</span>
                     </p>
                   </div>
                 </div>
@@ -1524,7 +1524,7 @@ export default function Home() {
               <line x1="8" x2="8" y1="2" y2="6" />
               <line x1="3" x2="21" y1="10" y2="10" />
             </svg>
-            <span>2025</span>
+            <span>2026</span>
           </p>
         </div>
       </div>
@@ -1583,7 +1583,7 @@ export default function Home() {
               <line x1="8" x2="8" y1="2" y2="6" />
               <line x1="3" x2="21" y1="10" y2="10" />
             </svg>
-            <span>2025</span>
+            <span>2026</span>
           </p>
         </div>
       </div>
@@ -1642,7 +1642,7 @@ export default function Home() {
               <line x1="8" x2="8" y1="2" y2="6" />
               <line x1="3" x2="21" y1="10" y2="10" />
             </svg>
-            <span>2025</span>
+            <span>2026</span>
           </p>
         </div>
       </div>
@@ -1701,7 +1701,7 @@ export default function Home() {
               <line x1="8" x2="8" y1="2" y2="6" />
               <line x1="3" x2="21" y1="10" y2="10" />
             </svg>
-            <span>2025</span>
+            <span>2026</span>
           </p>
         </div>
       </div>
@@ -1760,7 +1760,7 @@ export default function Home() {
               <line x1="8" x2="8" y1="2" y2="6" />
               <line x1="3" x2="21" y1="10" y2="10" />
             </svg>
-            <span>2025</span>
+            <span>2026</span>
           </p>
         </div>
       </div>
@@ -1819,7 +1819,7 @@ export default function Home() {
               <line x1="8" x2="8" y1="2" y2="6" />
               <line x1="3" x2="21" y1="10" y2="10" />
             </svg>
-            <span>2025</span>
+            <span>2026</span>
           </p>
         </div>
       </div>
@@ -1878,7 +1878,7 @@ export default function Home() {
               <line x1="8" x2="8" y1="2" y2="6" />
               <line x1="3" x2="21" y1="10" y2="10" />
             </svg>
-            <span>2025</span>
+            <span>2026</span>
           </p>
         </div>
       </div>

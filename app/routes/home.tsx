@@ -1377,9 +1377,9 @@ export default function Home() {
                         </button>
                       </div>
                     </div>
-                    <p className="text-gray-300 text-sm font-semibold">AI X Blockchain</p>
+                    <p className="text-gray-300 text-sm font-semibold">Summit, Conference, Demo Day & Awards</p>
                     <p className="text-gray-400 text-sm my-3">
-                      The Intelligent Economy: Convergence of AI Agents and Web3 Rails in Africa.
+                      The Intelligent Economy
                     </p>
                     <p className="flex gap-3 text-gray-300">
                       <svg
@@ -1398,7 +1398,7 @@ export default function Home() {
                         <line x1="8" x2="8" y1="2" y2="6" />
                         <line x1="3" x2="21" y1="10" y2="10" />
                       </svg>
-                      <span>TBA</span>
+                      <span>13th - 14th November, 2026</span>
                     </p>
                   </div>
                 </div>
@@ -1443,9 +1443,9 @@ export default function Home() {
                         </button>
                       </div>
                     </div>
-                    <p className="text-gray-300 text-sm font-semibold">Policy, Trust & Innovation</p>
+                    <p className="text-gray-300 text-sm font-semibold">Virtual Assets, Public Service and the Intelligent Onchain Economy</p>
                     <p className="text-gray-400 text-sm my-3">
-                      Shaping Nigeria's Digital Governance
+                      Shaping Nigeria's Intelligent Economy
                     </p>
                     <p className="flex gap-3 text-gray-300">
                       <svg
@@ -1464,7 +1464,7 @@ export default function Home() {
                         <line x1="8" x2="8" y1="2" y2="6" />
                         <line x1="3" x2="21" y1="10" y2="10" />
                       </svg>
-                      <span>TBA</span>
+                      <span>18th - 20th November, 2026</span>
                     </p>
                   </div>
                 </div>
